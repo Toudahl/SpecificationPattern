@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Morts.SpecificationPattern</RootNamespace>
+    <AssemblyName>Morts.SpecificationPattern</AssemblyName>
+  </PropertyGroup>
+
+</Project>
