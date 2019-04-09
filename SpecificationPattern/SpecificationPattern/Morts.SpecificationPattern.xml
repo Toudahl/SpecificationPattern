@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Morts.SpecificationPattern</name>
+    </assembly>
+    <members>
+        <member name="T:Morts.SpecificationPattern.AndSpecification`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Morts.SpecificationPattern.AndSpecification`1.CreateExpression">
+            <inheritdoc />
+        </member>
+        <member name="T:Morts.SpecificationPattern.NotSpecification`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Morts.SpecificationPattern.NotSpecification`1.CreateExpression">
+            <inheritdoc />
+        </member>
+        <member name="T:Morts.SpecificationPattern.OrSpecification`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Morts.SpecificationPattern.OrSpecification`1.CreateExpression">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Morts.SpecificationPattern.Specification`1">
+            <summary>
+            Implementing this class allows you to flexibly query various types of lists, using linq
+            <para>
+            Contains implicit operators that converts to funcs and expressions
+            </para>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.CreateExpression">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.And(Morts.SpecificationPattern.Specification{`0})">
+            <summary>
+            This specification and the other specification must evaluate to an expression that returns true when the resulting predicate is evaluated.
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.Or(Morts.SpecificationPattern.Specification{`0})">
+            <summary>
+            This specification or the other specification must evaluate to an expression that returns true when the resulting predicate is evaluated.
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.Not(Morts.SpecificationPattern.Specification{`0})">
+            <summary>
+            This specification, not the other specification must evaluate to an expression that returns true when the resulting predicate is evaluated.
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.op_Implicit(Morts.SpecificationPattern.Specification{`0})~System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}}">
+            <summary>
+            
+            </summary>
+            <param name="spec"></param>
+        </member>
+        <member name="M:Morts.SpecificationPattern.Specification`1.op_Implicit(Morts.SpecificationPattern.Specification{`0})~System.Func{`0,System.Boolean}">
+            <summary>
+            
+            </summary>
+            <param name="spec"></param>
+        </member>
+    </members>
+</doc>
