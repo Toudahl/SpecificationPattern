@@ -4,22 +4,25 @@
     <Title>Mortens specification pattern implementation</Title>
     <RootNamespace>Morts.SpecificationPattern</RootNamespace>
     <AssemblyName>Morts.SpecificationPattern</AssemblyName>
-    <TargetFrameworks>netstandard1.0;netstandard1.1;netstandard1.2;netstandard1.3;netstandard1.4;netstandard1.5;netstandard1.6;netstandard2.0;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;net5.0</TargetFrameworks>
     <Description>My implementation of the specification pattern</Description>
     <DocumentationFile>Morts.SpecificationPattern.xml</DocumentationFile>
     <Copyright>None</Copyright>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Morts specification pattern specificationpattern ef entityframework core Morts.SpecificationPattern</PackageTags>
     <PackageReleaseNotes>
-      * Initial version.
+      Enable nullable reference types. Only support netstandard2.1 and net5
     </PackageReleaseNotes>
+    <nullable>enable</nullable>
     <RepositoryUrl>https://github.com/Toudahl/SpecificationPattern</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Toudahl/SpecificationPattern</PackageProjectUrl>
     <Authors>Morten Toudahl</Authors>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <Version>1.0.0</Version>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <Version>2.0.0</Version>
+    <FileVersion>2.0.0</FileVersion>
     <PackageLicenseFile>license.md</PackageLicenseFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
